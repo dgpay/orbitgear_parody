@@ -1,0 +1,265 @@
+
+/*navbar*/
+
+
+
+.navbar {
+  height: 110px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+}
+.navbar-nav > li > a {
+  color: white;
+  margin: 10px 5px 5px 5px;
+}
+.navbar-nav > li > a:hover{
+  color: rgb(63, 61, 61);
+  border-bottom: 1px solid white;
+}
+.navbar-nav > li > a:visited {
+  color: white;
+  text-decoration: none;
+}
+.navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: #C57ED3;
+}
+.navbar-toggle {
+  border-color: #C57ED3;
+}
+.navbar-toggle:hover, .navbar-toggle:focus {
+  background-color: #490D40;
+}
+.navbar-toggle .icon-bar {
+  color: #C57ED3;
+  background-color: #C57ED3;
+}
+.navbar-collapse.collapse.in ul {
+  background-color: #490D40;
+}
+/**/
+/* CSS Document */
+.gallery-block{padding-bottom: 60px; padding-top: 60px;}
+.gallery-block .heading{margin-bottom: 50px; text-align: center;}
+
+.gallery-block .heading h2{font-weight: bold;font-size: 1.4rem; text-transform: uppercase;}
+
+.gallery-block.cards-gallery h6{font-size: 17px; font-weight: bold;}
+
+.gallery-block.cards-gallery .card{transition: 0.4s easy;}
+.gallery-block.cards-gallery .card img{box-shadow: 0px 2px 10px rgba(0,0,0,0.15);}
+.gallery-block.cards-gallery .card-body{text-align: center;}
+.gallery-block.cards-gallery .card-body p{font-size: 15px;}
+.gallery-block.cards-gallery a{color:#212529; }
+.gallery-block.cards-gallery a:hover{text-decoration: none;}
+.gallery-block.cards-gallery  .card{
+	margin-bottom: 30px;
+	box-shadow: 0px 2px 10px rgba(0,0,0,0.15);
+}
+
+@media (min-width: 576px) {
+
+	.gallery-block .transform-on-hover:hover {
+	    transform: translateY(-10px) scale(1.02);
+	    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important; 
+	}
+}
+/*end*/
+
+body{
+    background-color: #000000;
+
+}
+content{
+  background-color: black;
+	color:white;
+	font-family : inherit;
+	font-weight: normal;
+	font-size: 12px;
+  position: sticky;
+}
+
+h1{
+	margin-left: 50px;
+	text-transform: uppercase;
+	font-family : Roboto;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+a:link, a:visited {
+ 	color: white;
+  	text-decoration: none;
+  	display: inline-block;
+}
+
+content form{
+	text-align: left;
+	width:300px;
+	height: 300px;
+
+  margin:0 450px;
+}
+
+input[type=email], input[type=password]{
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border-radius: 6px;
+  box-sizing: border-box;
+  text-rendering: auto;
+  text-indent: 0px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif; 
+  position: relative;
+}
+
+
+.sign_up{
+  width: 200px;
+  padding: 5px 5px;
+  display: inline-block;
+  border-radius: 6px;
+  box-sizing: border-box;
+  background-color: grey;
+  box-shadow: 5px;
+}
+
+input[type=submit] {
+  width: 100px;
+  background-color: #D3D3D3;
+  color: black;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+input[type=submit]:hover {
+  background-color: #ffffff;
+}
+
+h4 {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.5;
+    color: #ffffff;
+    display: block;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: bold;
+    margin: auto;
+}
+
+h6 {
+    display: block;
+    margin-block-start: 2.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 14px;
+    font-family:Roboto;
+}
+
+.sub-footer{
+
+    background-color: #b3b3b3 ;
+    color:black;
+    height: 420px;
+    
+}
+
+.sub-footer a:link, .sub_footer a:visited {
+    text-decoration: none;
+    display: inline-block;
+    color:black;
+}
+.sub-footer p {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.fa{
+  color: auto;
+}
+
+.fa:hover{
+  color: white;
+}
+
+.message input[type=submit]{
+  width: 100%;
+  background-color: grey;
+ 
+}
+
+.message input[type=submit]:hover{
+  background-color: white;
+}
+
+.footer{
+  background-color: #1b1819;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+}
+
+.list-group-horizontal{
+  border:none;
+}
+
+.btn-outline-light{
+  border: none;
+}
+
+ul{
+    display: block;
+    list-style-type: disc; 
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
+
+
+
+.credits{
+  font-size: 12px;
+  position: relative;
+  top: -30px;
+}
+
+.payment_methods{
+  position:relative;
+  top: -30px;
+}
+
+.credits a:hover{
+  color: orange;
+}
+
+li{
+  list-style-type: none;
+}
+
+li span{
+  padding: inherit;
+}
+
+.list-group.list-group-horizontal.social_icons li a{
+  margin : 1px;
+}
+
